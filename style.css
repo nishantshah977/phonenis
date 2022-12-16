@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url('/images/wallpaper.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+nav{
+    background:black;
+    color:white;
+}
+.time{
+    margin-left:5px;
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius:50px;
+    margin-top:20%;
+    border:none;
+    opacity:0.5;
+    text-align:center;
+}
+.micon{
+      font-size: 30px;
+  background: -moz-linear-gradient(red,yellow,green,blue);
+  background: -webkit-linear-gradient(red,yellow,green,blue);
+  background: linear-gradient(red,yellow,green,blue);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-top:21%;
+    margin-left:10px;
+    margin-bottom:2px;
+}
+iframe{
+    position:relative;
+    height:50vh;
+    width:80%;
+    border:none;
+}
+.center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    display:none;
+}
+
+
+.flexBox{
+   display:flex;
+   gap:30px;
+   padding:250px 30px 10px 30px;
+   align-items:center;
+}
+
+.logo{
+    background-color:white;
+    height:60px;
+    width:60px;
+    border-radius:10px;
+    text-align:center;
+    display:inline-block;
+}
+.close{
+    height:40px;
+    width:100px;
+    font-size:20px;
+    margin-top:20px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+.iconName{
+    position: relative;
+    color:white;
+    font-weight:bold;
+}
+@media screen and (min-width:768px){
+    body{
+       width:50%;
+       margin:auto;
+    }
+}
